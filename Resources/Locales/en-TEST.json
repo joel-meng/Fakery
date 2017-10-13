@@ -3,12 +3,17 @@
     "faker": {
       "separator": " & ",
       "transport": {
-        "bus_shortName": ["###"],
-        "bus_longName": ["#{Address.suburb} - #{Address.suburb}"],
+        "bus_short_name": ["###"],
+        "bus_long_name": ["#{Address.suburb} - #{Address.suburb}"],
+        "bus_stop_number": ["##"],
+        "bus_stop_name": ["#{Address.street_name} at #{Address.suburb}, stop #{bus_stop_number}"],
         "train_line": ["#{Address.suburb} line"],
-        "train_shortName": ["????"],
-        "train_longName": ["#{train_line} - #{train_line}"],
+        "train_short_name": ["????"],
+        "train_long_name": ["#{train_line} - #{train_line}"],
+        "train_platform_number": ["#"],
+        "train_station_name": [ "#{Address.suburb}, platform #{train_platform_number}"],
         "agency_name": ["Translink"],
+        "bus_stop_name": ["#{Address.street_name} at #{Address.suburb}, stop ##"],
       },
       "address": {
         "suburb": ["Kangaroo Point"],

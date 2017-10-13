@@ -3,16 +3,22 @@
     "faker": {
       "separator": " & ",
       "transport": {
-        "bus_shortName": [
-          "###",
-          "##",
-          "P###"
-        ],
-        "bus_longName": ["#{Address.suburb} - #{Address.suburb}"],
+        "bus_short_name": [ "###", "##", "P###"],
+        "bus_stop_number": ["##"],
+        "bus_long_name": ["#{Address.suburb} - #{Address.suburb}"],
+        "bus_stop_name": ["#{Address.street_name} at #{Address.suburb}, stop ##",
+                          "#{Address.street_name} at #{Address.suburb}, stop ?",
+                          "#{Address.suburb} station, stop ?",
+                          "#{Address.suburb} interchange, platform ?"],
         "train_line": ["#{Address.suburb} line"],
-        "train_shortName": ["####"],
-        "train_longName": ["#{Address.suburb} - #{Address.suburb}"],
-        "agency_name": ["Translink"]
+        "train_short_name": ["####"],
+        "train_long_name": ["#{Address.suburb} - #{Address.suburb}"],
+        "train_platform_number": ["#"],
+        "train_station_name": ["#{Address.suburb}, platform  #{train_platform_number}",
+                               "#{Address.street_name}, platform #{train_platform_number}"],
+        "agency_name": ["Translink"],
+        "stop_name": ["#{Address.street_name} at #{Address.suburb}, stop ##",
+                      "#{Address.street_name} at #{Address.suburb}"]
       },
       "address": {
         "suburb": [
