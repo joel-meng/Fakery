@@ -173,6 +173,11 @@
 		D59B6D391D99C82E007CB072 /* NumberSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B6CFC1D99C5FD007CB072 /* NumberSpec.swift */; };
 		D59B6D3A1D99C82E007CB072 /* PhoneNumberSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B6CFD1D99C5FD007CB072 /* PhoneNumberSpec.swift */; };
 		D59B6D3B1D99C82E007CB072 /* TeamSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B6CFE1D99C5FD007CB072 /* TeamSpec.swift */; };
+		DB487EC81F9044630071AB08 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB487EC71F9044630071AB08 /* Transport.swift */; };
+		DB487ECD1F9045400071AB08 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB487EC71F9044630071AB08 /* Transport.swift */; };
+		DB487ECE1F9045400071AB08 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB487EC71F9044630071AB08 /* Transport.swift */; };
+		DB487ED01F90457F0071AB08 /* TransportSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB487ECF1F90457F0071AB08 /* TransportSpec.swift */; };
+		DB487ED11F90457F0071AB08 /* TransportSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB487ECF1F90457F0071AB08 /* TransportSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -265,6 +270,8 @@
 		D59B6D131D99C6C7007CB072 /* Info-Tests-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests-Mac.plist"; sourceTree = "<group>"; };
 		D59B6D141D99C6C7007CB072 /* Info-Tests-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Tests-tvOS.plist"; sourceTree = "<group>"; };
 		D59B6D151D99C6C7007CB072 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		DB487EC71F9044630071AB08 /* Transport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		DB487ECF1F90457F0071AB08 /* TransportSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -419,6 +426,7 @@
 				BCFFA1731BF9F912005A3BC1 /* PhoneNumber.swift */,
 				BCFFA1741BF9F912005A3BC1 /* Team.swift */,
 				1057479C1F6FBF6C00154ECB /* Bank.swift */,
+				DB487EC71F9044630071AB08 /* Transport.swift */,
 			);
 			path = Generators;
 			sourceTree = "<group>";
@@ -467,6 +475,7 @@
 				D59B6CFD1D99C5FD007CB072 /* PhoneNumberSpec.swift */,
 				D59B6CFE1D99C5FD007CB072 /* TeamSpec.swift */,
 				105747991F6FBAA500154ECB /* BankSpec.swift */,
+				DB487ECF1F90457F0071AB08 /* TransportSpec.swift */,
 			);
 			path = Generators;
 			sourceTree = "<group>";
@@ -873,6 +882,7 @@
 				1057479E1F6FBF7100154ECB /* Bank.swift in Sources */,
 				BC44779F1BFA453F00E8FB15 /* Provider.swift in Sources */,
 				BC44779D1BFA453800E8FB15 /* ArrayExtension.swift in Sources */,
+				DB487ECD1F9045400071AB08 /* Transport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -888,6 +898,7 @@
 				D59B6D391D99C82E007CB072 /* NumberSpec.swift in Sources */,
 				D59B6D341D99C82E007CB072 /* CompanySpec.swift in Sources */,
 				1057479B1F6FBAAA00154ECB /* BankSpec.swift in Sources */,
+				DB487ED11F90457F0071AB08 /* TransportSpec.swift in Sources */,
 				D59B6D311D99C82E007CB072 /* AppSpec.swift in Sources */,
 				D59B6D331D99C82E007CB072 /* CommerceSpec.swift in Sources */,
 				D59B6D2E1D99C82E007CB072 /* ParserSpec.swift in Sources */,
@@ -922,6 +933,7 @@
 				1057479D1F6FBF6C00154ECB /* Bank.swift in Sources */,
 				BCFFA19E1BF9F912005A3BC1 /* Name.swift in Sources */,
 				BCFFA1991BF9F912005A3BC1 /* Commerce.swift in Sources */,
+				DB487EC81F9044630071AB08 /* Transport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -937,6 +949,7 @@
 				D59B6D291D99C82D007CB072 /* NumberSpec.swift in Sources */,
 				D59B6D241D99C82D007CB072 /* CompanySpec.swift in Sources */,
 				1057479A1F6FBAA500154ECB /* BankSpec.swift in Sources */,
+				DB487ED01F90457F0071AB08 /* TransportSpec.swift in Sources */,
 				D59B6D211D99C82D007CB072 /* AppSpec.swift in Sources */,
 				D59B6D231D99C82D007CB072 /* CommerceSpec.swift in Sources */,
 				D59B6D1E1D99C82D007CB072 /* ParserSpec.swift in Sources */,
@@ -971,6 +984,7 @@
 				1057479F1F6FBF7100154ECB /* Bank.swift in Sources */,
 				D59B6CA81D99C46C007CB072 /* Commerce.swift in Sources */,
 				D59B6CAF1D99C46C007CB072 /* PhoneNumber.swift in Sources */,
+				DB487ECE1F9045400071AB08 /* Transport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

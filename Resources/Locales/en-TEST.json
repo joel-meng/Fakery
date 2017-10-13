@@ -2,7 +2,16 @@
   "en-TEST": {
     "faker": {
       "separator": " & ",
+      "transport": {
+        "bus_shortName": ["###"],
+        "bus_longName": ["#{Address.suburb} - #{Address.suburb}"],
+        "train_line": ["#{Address.suburb} line"],
+        "train_shortName": ["????"],
+        "train_longName": ["#{train_line} - #{train_line}"],
+        "agency_name": ["Translink"],
+      },
       "address": {
+        "suburb": ["Kangaroo Point"],
         "city_prefix": ["North"],
         "city_suffix": ["town"],
         "county": ["Autauga County"],

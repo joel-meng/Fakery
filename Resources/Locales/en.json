@@ -2,7 +2,41 @@
   "en": {
     "faker": {
       "separator": " & ",
+      "transport": {
+        "bus_shortName": [
+          "###",
+          "##",
+          "P###"
+        ],
+        "bus_longName": ["#{Address.suburb} - #{Address.suburb}"],
+        "train_line": ["#{Address.suburb} line"],
+        "train_shortName": ["####"],
+        "train_longName": ["#{Address.suburb} - #{Address.suburb}"],
+        "agency_name": ["Translink"]
+      },
       "address": {
+        "suburb": [
+           "City",
+           "Bardon",
+           "Bowen Hills",
+           "Brisbane",
+           "East Brisbane",
+           "Fortitude Valley",
+           "Herston",
+           "Highgate Hill",
+           "Kangaroo Point",
+           "Kelvin Grove",
+           "New Farm",
+           "Newstead",
+           "Paddington",
+           "Petrie Terrace",
+           "Red Hill",
+           "South Brisbane",
+           "Spring Hill",
+           "Teneriffe",
+           "West End",
+           "Woolloongabba"
+        ],
         "city_prefix": [
           "North",
           "East",
